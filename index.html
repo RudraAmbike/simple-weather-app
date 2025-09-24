@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>
+    <div class="app-wrap">
+        <header>
+            <input type="text" autocomplete="off" class="search-box" placeholder="Search for a city..." aria-label="Search for a city" />
+            <div id="dropdown">
+                <button id="dropdownButton">Cities</button>
+                <div id="cityList" class="dropdown-content"></div>
+            </div>
+        </header>
+        <div class="container">
+            <main>
+                <section class="location">
+                    <div class="city">Select a city</div>
+                    <div class="date" id="current-date"></div>
+                </section>
+                <div class="current">
+                    <div class="temp">--<span>°C</span></div>
+                    <div class="weather">--</div>
+                    <div class="hi-low">--</div>
+                    <div class="forecast" id="forecast"></div>
+                </div>
+                <div class="error-message" id="error-message"></div>
+            </main>
+        </div>
+    </div>
+
+    <button id="mapButton" class="map-button">🗺️</button>
+
+    <div id="map" class="map"></div>
+
+    <script src="main.js"></script>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+</body>
+</html>
