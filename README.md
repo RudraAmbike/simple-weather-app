@@ -17,15 +17,15 @@ Visit the live application: [Weather App](https://rudraambike.github.io/simple-w
 
 ## Technologies Used
 
-- HTML5
-- CSS3
+- HTML
+- CSS
 - JavaScript (ES6+)
 - OpenWeatherMap API for weather data
 - Leaflet.js for interactive maps
 
 ## Screenshot
 
-![Weather App Screenshot](screenshot.jpg)
+![Weather App Screenshot](screenshot.png)
 
 ## How to Use
 
@@ -46,15 +46,3 @@ const api = {
   base: "https://api.openweathermap.org/data/2.5/"
 };
 ```
-
-## Future Improvements
-
-- Add temperature unit toggle (°C/°F)
-- Implement geolocation to get user's current location weather
-- Add weather alerts and notifications
-- Improve mobile responsiveness
-- Add dark/light theme switch
-
-## License
-
-MIT License
