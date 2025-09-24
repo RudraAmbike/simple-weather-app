@@ -2,6 +2,10 @@
 
 A responsive weather application that displays current weather and 5-day forecast for cities worldwide.
 
+## Live Demo
+
+Visit the live application: [Weather App](https://rudraambike.github.io/simple-weather-app/)
+
 ## Features
 
 - Search for weather by city name
